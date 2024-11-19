@@ -23,7 +23,7 @@ export const updateUser = async (userId, updatedData) => {
         const response = await axios.put(apiUrl, updatedData);
         
         console.log({updatedData})
-        updateUser(updatedData.nombre, updateUser.icono);
+        updateUser(updatedData.nombre, updatedData.icono);
         
         return {
             success: true,
